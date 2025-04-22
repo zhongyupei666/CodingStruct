@@ -284,10 +284,79 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9PBLkI79KpnAGlkXn9WJ" name="第 4 页">
-    <mxGraphModel dx="914" dy="544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-1" target="VvnCiMWUyqMPUR74TQhF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-1" value="&lt;div&gt;M存储体&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-191" y="-27" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-2" target="VvnCiMWUyqMPUR74TQhF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-2" value="&lt;div&gt;译码电路&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-189.5" y="137" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-3" target="VvnCiMWUyqMPUR74TQhF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-3" value="&lt;div&gt;驱动电路&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-189.5" y="78" width="117" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-4" target="VvnCiMWUyqMPUR74TQhF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-4" value="&lt;div&gt;MAR寄存器&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-191" y="212" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-9" target="VvnCiMWUyqMPUR74TQhF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-9" value="读写控制电路" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="-49" width="64" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-11" value="&lt;div&gt;MDR寄存器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-17" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-13" value="控制电路" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40.5" y="112" width="69" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53" y="203" as="sourcePoint" />
+            <mxPoint x="53" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98" y="201" as="sourcePoint" />
+            <mxPoint x="98" y="152" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-16" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="63.5" y="64" width="23" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-17" value="读" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="208" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-18" value="写" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="68" y="208" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.016;exitY=0.644;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VvnCiMWUyqMPUR74TQhF-9" target="VvnCiMWUyqMPUR74TQhF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="225" as="sourcePoint" />
+            <mxPoint x="225" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VvnCiMWUyqMPUR74TQhF-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="191" y="22" as="sourcePoint" />
+            <mxPoint x="107" y="22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
